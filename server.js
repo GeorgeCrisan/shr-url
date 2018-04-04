@@ -9,10 +9,19 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + '/views/index.html')
 })
 
-
-app.get("/any", (request, response) => {
-  response.json("bun")
+app.get("/new/:data(*)",(req,res)=>{
+     let url = req.params.data;
+  console.log(url + 'from get');
+     res.json({"bun":url});
 })
+
+app.post("/new/:url(*)", (req, res) => {
+   
+       let url = req.params.url;
+  
+    console.log(url + 'from post');
+  res.json({"bun":url});
+});
 
 // could
 
