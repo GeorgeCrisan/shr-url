@@ -1,2 +1,5 @@
+Use at <code>https://shr-url.glitch.me/</code>
+<br/>
+
 georgecrisan.com<br/>
-npm install ass I have issued with .gitignore
+npm install is requiered  because I have issued with .gitignore.
