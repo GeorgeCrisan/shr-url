@@ -1,29 +1,45 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 25px;
-  background-image: url('')
+  background-image: linear-gradient(#063053, #395873, #5c7c99);
+  /*background-image: url('https://pixabay.com/get/e832b60d2af0033ed1584d05fb0938c9bd22ffd41cb3134996f6c670ae/domain-names-1772242_1280.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  
 }
 
 h1 {
   font-weight: bold;
-  color: #faa500;
+  color: #FF6EFF;
   text-shadow: 2px 2px 2px black;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 30px;
   
+}
+
+h2 {
+  padding: 30px;
+
 }
 
 main {
   margin: auto;
-  margin-top: 50px;
-  width: 600px;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
-  margin-bottom: 30px;
+  font-size: 17px;
+  background-color: rgba(14,34,4, 0.1);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+
 }
 
 .bold {
@@ -31,7 +47,11 @@ main {
 }
 
 p {
-  max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+   color: #FF6EFF;
+  text-shadow: 2px 2px 2px black;
+   
 }
 
 form {
@@ -57,21 +77,24 @@ input {
 button {
   font-size: 16px;
   border-radius: 3px;
+  width: 100px;
   background-color: black;
-  border: 1px solid black;
+  border: 1px solid #FF6EFF;
   color: white;
   cursor: pointer;
-  margin-left: 30px;
+  margin-left: 10px;
   height: 30px;
 }
 
 section{
+  margin-top: 50px;
 width: 100%;
 
 }
 
 button:hover {
   background-color: white;
+  border: 1px solid lime;
   color: black;
 }
 
